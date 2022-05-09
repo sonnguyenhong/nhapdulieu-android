@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8CFCF"
+    android:background="#FFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -28,9 +28,9 @@
         android:layout_marginLeft="10dp"
         android:text="MSSV"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/mssvTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -54,9 +54,9 @@
         android:layout_marginLeft="10dp"
         android:text="Họ và tên"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/nameTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -81,9 +81,9 @@
         android:layout_marginLeft="10dp"
         android:text="CCCD"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/cccdTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -119,9 +119,9 @@
         android:layout_marginLeft="10dp"
         android:text="Phone"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/phoneTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -132,9 +132,9 @@
         android:layout_marginLeft="10dp"
         android:text="Email"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/emailTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -157,9 +157,9 @@
         android:layout_marginLeft="10dp"
         android:text="Birth Date"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnBirthDate"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -194,9 +194,9 @@
         android:layout_marginLeft="10dp"
         android:text="Quê quán"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/quequanTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -218,9 +218,9 @@
         android:layout_marginLeft="10dp"
         android:text="Nơi ở hiện tại"
         android:textAlignment="center"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/noiOTextField"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -263,9 +263,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:text="Ngành học hiện tại"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/noiOTextField" />
 
@@ -275,9 +275,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:text="Ngôn ngữ lập trình"
-        android:textColor="#F47262"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/checkBox"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -315,7 +315,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:text="Đồng Ý gửi thông tin"
-        android:textColor="#F15454"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/confirmCheckBox"
@@ -336,10 +336,10 @@
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#001E0505"
+        android:backgroundTint="#1643CA"
         android:text="Gửi thông tin"
         android:textAllCaps="true"
-        android:textColor="#DA3939"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
